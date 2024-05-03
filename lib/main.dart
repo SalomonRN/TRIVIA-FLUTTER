@@ -1,7 +1,10 @@
+import 'dart:math';
+
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'pregunta.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -78,19 +81,36 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  List<Pregunta> map = List.empty(growable: true);
+  String _counter = "0sss1";
 
-  void _incrementCounter() {
-    DatabaseReference _reference = FirebaseDatabase.instance.ref().child("usuarios");
-    _reference.set({"SI SIRVE"});
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
+  Future<void> _incrementCounter() async {
+    _counter = "respuestas.elementAt(0);";
+    DatabaseReference reference = FirebaseDatabase.instance.ref();
+    final dataSnapshot = await reference.child("preguntas").get();
+    _counter = "ANTES FOR.elementAt(0);";
+
+    for (DataSnapshot preguntaSnapshot in dataSnapshot.children) {
+      _counter = "ANTES FOR1.elementAt(0);";
+
+      String pregunta = preguntaSnapshot.child("pregunta").value.toString();
+      String respuestaCorrecta =
+          preguntaSnapshot.child("respuestaCorrecta").value.toString();
+      Iterable<String> respuestas = preguntaSnapshot
+          .child("respuestas")
+          .children
+          .map((e) => e.toString());
+      _counter = respuestas.elementAt(0).toString();
+      Pregunta pregunta0 = Pregunta(pregunta, respuestaCorrecta, respuestas);
+      _counter = "ANTES FOR2.elementAt(0);";
+
+      map.add(pregunta0);
+    }
+
+    Pregunta pregunta0 = map.elementAt( Random().nextInt(map.length));
+    _counter = pregunta0.pregunta.toString();
+
+    setState(() {});
   }
 
   @override
@@ -144,7 +164,8 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
+      // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
