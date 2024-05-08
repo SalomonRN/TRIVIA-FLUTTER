@@ -99,8 +99,8 @@ class _MyHomePageState extends State<MyHomePage> {
   int cantidad = 10;
   int nVeces = 0;
   // FUNCIONES QUE SE EJECUTARAN CUANDO SE LE DEN CLICK AL TEXTO
-  void res_1() {
-    eleccion = res1.toString();
+
+  void comprobar() {
     if (eleccion == respuestaCorrecta) {
       pts += 1;
     }
@@ -109,47 +109,33 @@ class _MyHomePageState extends State<MyHomePage> {
     } else {
       nextActivity();
     }
+  }
+
+  void res_1() {
+    eleccion = res1.toString();
+    comprobar();
   }
 
   void res_2() {
     eleccion = res2.toString();
-    if (eleccion == respuestaCorrecta) {
-      pts += 1;
-    }
-    if (nVeces < cantidad) {
-      pintarPregunta();
-    } else {
-      nextActivity();
-    }
+    comprobar();
   }
 
   void res_3() {
     eleccion = res3.toString();
-    if (eleccion == respuestaCorrecta) {
-      pts += 1;
-    }
-    if (nVeces < cantidad) {
-      pintarPregunta();
-    } else {
-      nextActivity();
-    }
+    comprobar();
   }
 
   void res_4() {
     eleccion = res4.toString();
-    if (eleccion == respuestaCorrecta) {
-      pts += 1;
-    }
-    if (nVeces < cantidad) {
-      pintarPregunta();
-    } else {
-      nextActivity();
-    }
+    comprobar();
   }
+
   // Para ir a la otra pantalla
   void nextActivity() {
     Navigator.pushNamed(context, '/sec', arguments: [pts.toString(), name]);
   }
+
   // Para mostrar los datos de la pregunta
   void pintarPregunta() {
     setState(() {
@@ -185,6 +171,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
     pintarPregunta();
   }
+
   // Esto es para cuando se incie el Widget
   @override
   void initState() {
@@ -202,7 +189,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           children: [
-            Text("pregunta numero $nVeces"),
+            Text("Pregunta numero $nVeces"),
             Text(textPregunta),
             Material(
               child: InkWell(
