@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/widgets.dart';
 import 'package:triviaflutter/pantalla2.dart';
 import 'firebase_options.dart';
 import 'pregunta.dart';
@@ -25,6 +26,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'TRIVIA',
         theme: ThemeData(
+          fontFamily: 'jerseyr',
+          primarySwatch: Colors.deepOrange,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
@@ -199,46 +202,161 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Column(
-          children: [
-            Text("pregunta numero $nVeces"),
-            Text(textPregunta),
-            Material(
-              child: InkWell(
-                onTap: () {
-                  res_1();
-                },
-                child: Text(res1),
-              ),
+      body: Container(
+        color: Color.fromARGB(255, 131, 37, 0),
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
+        child: Center(
+          child: Container(
+            padding: EdgeInsets.all(20.0),
+            width: MediaQuery.of(context).size.width * 0.8,
+            height: MediaQuery.of(context).size.height * 0.8,
+            decoration: BoxDecoration(
+              color: Color.fromARGB(255, 233, 132, 39),
+              borderRadius: BorderRadius.circular(20),
             ),
-            Material(
-              child: InkWell(
-                onTap: () {
-                  res_2();
-                },
-                child: Text(res2),
-              ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: 40,
+                  child: WaveText("pregunta numero $nVeces", style: TextStyle(fontSize: 50, fontFamily: 'jerseyr', fontWeight: FontWeight.bold)),
+                  
+                ),
+                SizedBox(height: 20),
+                Text(
+                  textPregunta,
+                  style: TextStyle(fontSize: 40, fontFamily: 'jerseyr', fontWeight: FontWeight.bold),
+                ),
+                SizedBox(height: 20),
+                ElevatedButton(
+                  onPressed: () => res_1(),
+                  child: Text(res1,
+                  style: TextStyle(
+                    color: Color.fromARGB(255, 233, 132, 39),
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                    fontFamily: 'jerseyr'
+                  ),
+                  ),style: ElevatedButton.styleFrom(
+                  backgroundColor: Color.fromARGB(255, 0, 0, 0), 
+                          ),
+                ),
+                SizedBox(height: 20), 
+                ElevatedButton(
+                  onPressed: () => res_2(),
+                  child: Text(res2,
+                  style: TextStyle(
+                    color: Color.fromARGB(255, 233, 132, 39),
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                    fontFamily: 'jerseyr'
+                  ),
+                  ),
+                   style: ElevatedButton.styleFrom(
+                  backgroundColor: Color.fromARGB(255, 0, 0, 0), 
+                          ),
+                ),
+
+
+                SizedBox(height: 20), 
+                ElevatedButton(
+                  onPressed: () => res_3(),
+                  child: Text(res3,
+                  style: TextStyle(
+                    color: Color.fromARGB(255, 233, 132, 39),
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                    fontFamily: 'jerseyr'
+                  ),
+                  ),style: ElevatedButton.styleFrom(
+                  backgroundColor: Color.fromARGB(255, 0, 0, 0), 
+                          ),
+                ),
+
+                SizedBox(height: 20), 
+                ElevatedButton(
+                  onPressed: () => res_4(),
+                  child: Text(res4,
+                  style: TextStyle(
+                    color: Color.fromARGB(255, 233, 132, 39),
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                    fontFamily: 'jerseyr'
+                  ),
+                  ),style: ElevatedButton.styleFrom(
+                  backgroundColor: Color.fromARGB(255, 0, 0, 0), 
+                          ),
+                ),
+              ],
             ),
-            Material(
-              child: InkWell(
-                onTap: () {
-                  res_3();
-                },
-                child: Text(res3),
-              ),
-            ),
-            Material(
-              child: InkWell(
-                onTap: () {
-                  res_4();
-                },
-                child: Text(res4),
-              ),
-            ),
-          ],
+          ),
         ),
       ),
+    );
+  }
+}
+
+class WaveText extends StatefulWidget {
+  final String text;
+
+  WaveText(this.text, {required TextStyle style});
+
+  @override
+  _WaveTextState createState() => _WaveTextState();
+}
+
+class _WaveTextState extends State<WaveText>
+    with SingleTickerProviderStateMixin {
+  late Animation<double> _animation;
+  late AnimationController _controller;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      duration: const Duration(seconds: 5),
+      vsync: this,
+    );
+
+    _animation = Tween(begin: 0.0, end: widget.text.length.toDouble())
+        .animate(_controller)
+          ..addListener(() {
+            setState(() {});
+          })
+          ..addStatusListener((status) {
+            if (status == AnimationStatus.completed) {
+              _controller.reverse();
+            } else if (status == AnimationStatus.dismissed) {
+              _controller.forward();
+            }
+          });
+
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: List.generate(widget.text.length, (index) {
+        return AnimatedDefaultTextStyle(
+          style: TextStyle(
+            fontFamily: 'jerseyr', 
+            fontSize: (index == _animation.value.floor() % widget.text.length) ? 40 : 30, 
+            color: Color.fromARGB(255, 131, 37, 0),
+            fontWeight: FontWeight.bold,
+          ),
+          duration: Duration(milliseconds: 200),
+          child: Text(widget.text[index]),
+        );
+      }),
     );
   }
 }
