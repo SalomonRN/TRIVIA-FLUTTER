@@ -63,7 +63,7 @@ flutter:
 assets:
 
 #     - images/p3.png
-#     - images/p1.gif
+      - assets/images/p1.gif
 #     - images/p2.gif
 
   # To add custom fonts to your application, add a fonts section here,
@@ -71,10 +71,15 @@ assets:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
+  
+fonts:
     - family: jerseyr
       fonts:
-        - asset: fonts/jerseyr.ttf
+        - asset: assets/font/jerseyr.ttf
+
+    - family: game_over
+      fonts:    
+        - asset: fonts/game_over.tff
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
