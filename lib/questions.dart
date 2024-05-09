@@ -147,7 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   // Para ir a la otra pantalla
   void nextActivity() {
-    Navigator.pushNamed(context, '/sec', arguments: [pts.toString(), 'name': name],);
+    Navigator.pushNamed(context, '/sec', arguments: [pts.toString(), name],);
   }
 
   // Para mostrar los datos de la pregunta

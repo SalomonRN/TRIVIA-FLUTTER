@@ -3,10 +3,6 @@ import 'questions.dart';
 import 'pregunta.dart';
 
 class Score extends StatefulWidget {
-  final Map<String, String> arguments;
-
-  Score({required this.arguments});
-
   @override
   _ScoreState createState() => _ScoreState();
 }
@@ -23,7 +19,12 @@ class _ScoreState extends State<Score> with SingleTickerProviderStateMixin {
       vsync: this,
     );
 
-    _animation = Tween(begin: 0.0, end: widget.arguments['score'] != null ? double.parse(widget.arguments['score']!) : 0.0).animate(_controller)
+    _animation = Tween(
+            begin: 0.0,
+            end: 4 != null
+                ? double.parse("20")
+                : 0.0)
+        .animate(_controller)
       ..addListener(() {
         setState(() {});
       });
@@ -39,7 +40,8 @@ class _ScoreState extends State<Score> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    String name = widget.arguments['name'] ?? 'Unknown';
+    final List<String> datosRecibidos =
+        ModalRoute.of(context)!.settings.arguments as List<String>;
     String score = _animation.value.toStringAsFixed(0);
 
     return Scaffold(
@@ -71,7 +73,7 @@ class _ScoreState extends State<Score> with SingleTickerProviderStateMixin {
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'Nombre: $name',
+                  'Nombre: ${datosRecibidos[1]}',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -80,7 +82,7 @@ class _ScoreState extends State<Score> with SingleTickerProviderStateMixin {
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'Puntaje: $score',
+                  'Puntaje: ${datosRecibidos[0]}',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -106,7 +108,8 @@ class WaveText extends StatefulWidget {
   _WaveTextState createState() => _WaveTextState();
 }
 
-class _WaveTextState extends State<WaveText> with SingleTickerProviderStateMixin {
+class _WaveTextState extends State<WaveText>
+    with SingleTickerProviderStateMixin {
   late Animation<double> _animation;
   late AnimationController _controller;
 
@@ -118,7 +121,8 @@ class _WaveTextState extends State<WaveText> with SingleTickerProviderStateMixin
       vsync: this,
     );
 
-    _animation = Tween(begin: 0.0, end: widget.text.length.toDouble()).animate(_controller)
+    _animation = Tween(begin: 0.0, end: widget.text.length.toDouble())
+        .animate(_controller)
       ..addListener(() {
         setState(() {});
       })
@@ -146,7 +150,9 @@ class _WaveTextState extends State<WaveText> with SingleTickerProviderStateMixin
       children: List.generate(widget.text.length, (index) {
         return AnimatedDefaultTextStyle(
           style: TextStyle(
-            fontSize: (index == _animation.value.floor() % widget.text.length) ? 60 : 50,
+            fontSize: (index == _animation.value.floor() % widget.text.length)
+                ? 60
+                : 50,
             color: Color.fromARGB(255, 131, 37, 0),
             fontWeight: FontWeight.bold,
           ),
