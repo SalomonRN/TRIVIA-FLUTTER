@@ -1,9 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:triviaflutter/firebase_options.dart';
 
-class Pantalla2 extends StatelessWidget {
+class score extends StatelessWidget {
+  final Future<FirebaseApp> firebaseApp =
+      Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   @override
   Widget build(BuildContext context) {
-    // Recibe el array de datos
     final List<String> datosRecibidos =
         ModalRoute.of(context)!.settings.arguments as List<String>;
 
