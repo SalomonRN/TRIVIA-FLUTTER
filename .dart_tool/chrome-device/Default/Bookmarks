@@ -1,5 +1,5 @@
 {
-   "checksum": "5202c9b74d2cf3ce4ea74d97c6450f78",
+   "checksum": "6355ee3e8e7d747dbfe4d82da7cf0558",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -9,8 +9,6 @@
                "guid": "6d162d35-a43a-413e-9d51-cb031b4aa073",
                "id": "8",
                "name": "Python Tutor - Visualize Python, Java, JavaScript, C, C++, Ruby code execution",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://pythontutor.com/visualize.html#mode=display"
             }, {
@@ -19,8 +17,6 @@
                "guid": "b8088f66-976f-4d12-a4f4-726aa0375214",
                "id": "9",
                "name": "Untitled0.ipynb - Colaboratory",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://colab.research.google.com/drive/1Gd8_WQ2-1tPa1osACoo93zikzMKMibWH?hl=es#scrollTo=AA1ceZyTBR6e"
             }, {
@@ -29,8 +25,6 @@
                "guid": "4a412c4a-9815-4b66-a61f-4e5df055440f",
                "id": "10",
                "name": "Operadores Básicos en Python con ejemplos",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://www.freecodecamp.org/espanol/news/operadores-basicos-en-python-con-ejemplos/"
             }, {
@@ -39,8 +33,6 @@
                "guid": "d20abe8e-b63d-496e-97b0-0bb90196cfc2",
                "id": "11",
                "name": "Python math Module",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://www.w3schools.com/python/module_math.asp"
             }, {
@@ -49,8 +41,6 @@
                "guid": "f4bab0a3-5d29-4e11-a828-ffda0e218699",
                "id": "12",
                "name": "Microsoft Teams",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid"
             }, {
@@ -59,8 +49,6 @@
                "guid": "3f838183-0346-41fb-a601-b9ee2aa594bb",
                "id": "13",
                "name": "d",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://www.misiontic2022.gov.co/portal/"
             }, {
@@ -69,8 +57,6 @@
                "guid": "0feb3c5c-2a88-4734-9374-5fbec24a1702",
                "id": "14",
                "name": "GitHub - BedrockLauncher/BedrockLauncher",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://github.com/BedrockLauncher/BedrockLauncher"
             } ],
@@ -80,7 +66,6 @@
             "guid": "9b8d9e43-09be-48c8-bcfb-106ad99b1e57",
             "id": "7",
             "name": "PYTHON",
-            "source": "unknown",
             "type": "folder"
          }, {
             "date_added": "13296175665613256",
@@ -88,8 +73,6 @@
             "guid": "6eb3d3a9-c0bc-455d-a727-9e6bf9ed8422",
             "id": "15",
             "name": "Correo: Salomón Ruiz Navarrete - Outlook",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://outlook.office.com/mail/"
          }, {
@@ -98,8 +81,6 @@
             "guid": "45d78aae-82a5-44ee-83b3-d1d0d1e17ec8",
             "id": "16",
             "name": "S.A",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://misiontic2022.usergioarboleda.edu.co/"
          }, {
@@ -108,8 +89,6 @@
             "guid": "08a64b5f-6d4f-43e0-8f37-e56f4d6a85c5",
             "id": "17",
             "name": "Aulas virtuales UNIAGUSTINIANA",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://virtual.uniagustiniana.edu.co/"
          }, {
@@ -118,8 +97,6 @@
             "guid": "4ad93b85-a4f6-4f38-ba8d-fc2b655e7e81",
             "id": "18",
             "name": "SIGA",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://siga.uniagustiniana.edu.co//acceso.php?accion=es&ll=MjIyMDIyMTA0MQ=="
          }, {
@@ -128,8 +105,6 @@
             "guid": "79b28c27-5633-41ab-b938-77f4bba8db75",
             "id": "19",
             "name": "Ver Initial D: Fourth Stage Online — AnimeFLV",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www3.animeflv.net/anime/initial-d-fourth-stage"
          }, {
@@ -138,8 +113,6 @@
             "guid": "fdb5c7e1-9994-4c4d-9367-e958e5a161d8",
             "id": "20",
             "name": "Ver Fate/Zero Online — AnimeFLV",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www3.animeflv.net/anime/fate-zero"
          }, {
@@ -148,8 +121,6 @@
             "guid": "b2e9111e-8e3b-4c30-bf29-46f0a8dda904",
             "id": "21",
             "name": "Photopea | Online Photo Editor",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.photopea.com/"
          }, {
@@ -158,8 +129,6 @@
             "guid": "f26e5f3c-63f3-41d3-8181-70a5faf55d79",
             "id": "22",
             "name": "Excepciones Pico y Placa",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.movilidadbogota.gov.co/web/SIMUR/excepcionesTemporal/radicarSolicitud/"
          }, {
@@ -168,8 +137,6 @@
             "guid": "26faaa10-aa0c-4e83-853b-521533ff6ca9",
             "id": "23",
             "name": "The Daily Life of the Immortal King 1 Sub Español Online gratis",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://jkanime.net/the-daily-life-of-the-inmortal-king/1/"
          }, {
@@ -178,8 +145,6 @@
             "guid": "c9dff10c-4ac3-459b-b1c5-2907e65faa5f",
             "id": "24",
             "name": "Ver Ballroom e Youkoso Online — AnimeFLV",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www3.animeflv.net/anime/ballroom-e-youkoso"
          }, {
@@ -189,8 +154,6 @@
                "guid": "1484c02e-4b04-4f18-a194-02e2bb0a1721",
                "id": "26",
                "name": "Funciones con parámetros",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://sena.territorio.la/content/index.php/institucion/Complementaria/institution/SENA/Tecnologia/21450169_1/Contenido/OVA/MF4_Funciones_con_parametros/index.html"
             }, {
@@ -199,8 +162,6 @@
                "guid": "74d60187-bb02-4a6e-95bc-69030d124c04",
                "id": "27",
                "name": "Uso y declaración de funciones",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://sena.territorio.la/content/index.php/institucion/Complementaria/institution/SENA/Tecnologia/21450169_1/Contenido/OVA/MF3_Uso_y_declaracion_de_funciones/index.html"
             }, {
@@ -209,8 +170,6 @@
                "guid": "79edd3f9-fdcf-4dff-a70d-3596cff646ac",
                "id": "28",
                "name": "Arreglos en C++",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://sena.territorio.la/content/index.php/institucion/Complementaria/institution/SENA/Tecnologia/21450169_1/Contenido/OVA/MF2_Arreglos_en_C/index.html"
             }, {
@@ -219,8 +178,6 @@
                "guid": "e693d7a4-caaf-4423-b57c-162d08bcbf58",
                "id": "29",
                "name": "Conceptos de programación orientada a objetos",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://sena.territorio.la/content/index.php/institucion/Complementaria/institution/SENA/Tecnologia/21450169_1/Contenido/OVA/MF1_Conceptos_de_programacion_orientada_a_objetos/index.html"
             }, {
@@ -229,8 +186,6 @@
                "guid": "b3c5dae7-9e17-462c-baa4-09b1553477b3",
                "id": "30",
                "name": "MaterialRAP1",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://sena.territorio.la/content/index.php/institucion/Complementaria/institution/SENA/Tecnologia/21730030_2/Contenido/OVA/OVA1/MaterialRAP1.pdf"
             }, {
@@ -239,8 +194,6 @@
                "guid": "d8f3bb23-e9f6-443c-a6fd-7f0adfae3077",
                "id": "31",
                "name": "HTML: Lenguaje de etiquetas de hipertexto | MDN",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://developer.mozilla.org/es/docs/Web/HTML"
             }, {
@@ -249,8 +202,6 @@
                "guid": "bc31c778-18f9-408f-9570-5557aca64599",
                "id": "32",
                "name": "Lenguaje HTML | Documentación sobre desarrollo web - HTML en español - Lenguaje HTML",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://lenguajehtml.com/"
             }, {
@@ -259,8 +210,6 @@
                "guid": "74ec22c2-58b6-4337-8735-81db9171bc18",
                "id": "33",
                "name": "Salomon Ruiz Navarrete",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "file:///C:/Users/sadki/OneDrive/Documentos/LENGUAJES/P.W/index.html"
             }, {
@@ -269,8 +218,6 @@
                "guid": "cd006d8c-5d3f-47d3-81d9-75009ca9110d",
                "id": "34",
                "name": "HTML For Beginners The Easy Way: Start Learning HTML & CSS Today »",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://html.com/"
             }, {
@@ -279,8 +226,6 @@
                "guid": "943c6a64-3c33-47a1-9f78-7be0f4c26020",
                "id": "35",
                "name": "Component Party",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://component-party.dev/"
             } ],
@@ -290,7 +235,6 @@
             "guid": "3e681d19-8e30-4d4f-9b47-a2ddad5557b1",
             "id": "25",
             "name": "VARIOS",
-            "source": "unknown",
             "type": "folder"
          }, {
             "date_added": "13294176883027382",
@@ -298,8 +242,6 @@
             "guid": "259b9d37-0b7c-4437-8473-0c2ec5a29e41",
             "id": "36",
             "name": "GeoGebra Clásico",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.geogebra.org/classic?lang=es"
          }, {
@@ -309,8 +251,6 @@
                "guid": "ee593fca-7694-4cae-bf63-ac21ce7c8d7c",
                "id": "38",
                "name": "McGill University.",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://www.google.com/search?q=McGill+University&oq=McGill+University&aqs=edge..69i57.508j0j1&sourceid=chrome&ie=UTF-8"
             }, {
@@ -319,8 +259,6 @@
                "guid": "b88f2ad2-dc2b-4dce-95b2-9f8ebd90d3d3",
                "id": "39",
                "name": "10 trabajos en demanda en Canadá - 2021 (+Salarios y posiciones remotas) - Noticias LC Mundo",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://www.lcmundo.com.co/noticias/57/trabajos-emergentes-en-canada-2021/"
             }, {
@@ -329,8 +267,6 @@
                "guid": "702405f0-3317-44bc-801d-7ca4efb69dcc",
                "id": "40",
                "name": "Cómo emigrar a Canadá con mi pareja | Pasos para vivir juntos la aventura",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://growproexperience.com/canada/como-emigrar-a-canada-con-mi-pareja/"
             }, {
@@ -339,8 +275,6 @@
                "guid": "897d5e6c-dbbb-45aa-9e43-aadce467c519",
                "id": "41",
                "name": "Computer Science - Algoma",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://algomau.ca/academics/programs/computer-science/"
             }, {
@@ -349,8 +283,6 @@
                "guid": "5afa6b1a-cf02-4d1c-8dce-22dbc1c4746e",
                "id": "42",
                "name": "Exercism",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://exercism.org/"
             } ],
@@ -360,7 +292,6 @@
             "guid": "1474adba-07b9-490a-b2ec-7cf838ea4564",
             "id": "37",
             "name": "CANADA",
-            "source": "unknown",
             "type": "folder"
          }, {
             "date_added": "13296176810578447",
@@ -368,8 +299,6 @@
             "guid": "8912da8e-58f7-4579-ae77-554bcf8b293f",
             "id": "43",
             "name": "ᐈ Cuevana 3 ⚜️ Cuevana3 .la es la ORIGINAL",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://cuevana3.la/"
          }, {
@@ -378,8 +307,6 @@
             "guid": "c09836f8-8b88-439a-84ab-c5438bd7c96a",
             "id": "44",
             "name": "NBX0001TC00-Cable De Disco Duro Para Portátil Lenovo IdeaPad Gaming 3 15ARH05 3 15IMH Adaptador HDD SSD | Shopee Colombia",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://shopee.com.co/NBX0001TC00-Cable-De-Disco-Duro-Para-Port%C3%A1til-Lenovo-IdeaPad-Gaming-3-15ARH05-3-15IMH-Adaptador-HDD-SSD-i.498589298.14580855518?gclid=Cj0KCQjwsdiTBhD5ARIsAIpW8CIlltFW-ZrSVik3Ejl72O5J8JG6ANj0HCY8_jVnupUj3PZ-fvtKufcaAqcuEALw_wcB"
          }, {
@@ -388,8 +315,6 @@
             "guid": "de3b40a5-1cd6-4aec-b42f-5e57096d0744",
             "id": "45",
             "name": "Calculadora de Matrices",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://matrixcalc.org/es/#%7B%7B8,2,1%7D,%7B3,0,5%7D,%7B7,-6,0%7D%7D%5E(-1)"
          }, {
@@ -398,8 +323,6 @@
             "guid": "e067e529-0106-445e-91e7-170eb3095f0d",
             "id": "46",
             "name": "Switch | nsw2u.xyz",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://nsw2u.xyz/Category/switch"
          }, {
@@ -408,8 +331,6 @@
             "guid": "b2c1964c-ae80-4d1f-8e3f-2d895b7a22b4",
             "id": "47",
             "name": "Nazo no Kanojo X Episodio 2 Sub Español — AnimeFLV",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www3.animeflv.net/ver/nazo-no-kanojo-x-2"
          }, {
@@ -418,8 +339,6 @@
             "guid": "61bc0080-5561-472f-9364-c39500f55396",
             "id": "48",
             "name": "Identity Cloud Service",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://idcs-a0accf51dd4a4dfc9b6597cb3fc9e35a.identity.oraclecloud.com/ui/v1/signin"
          }, {
@@ -428,8 +347,6 @@
             "guid": "2409a042-6af1-4e4e-85d0-41a9f8f56815",
             "id": "49",
             "name": "d",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://cloud.oracle.com/compute/instances/create?region=us-ashburn-1"
          }, {
@@ -438,8 +355,6 @@
             "guid": "adb42ab5-c5dc-4ce4-862f-ab984017a1d3",
             "id": "50",
             "name": "Cloud Sign In",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.oracle.com/cloud/sign-in.html"
          }, {
@@ -449,8 +364,6 @@
                "guid": "9d651cd0-8686-4c90-b151-ccdb42035249",
                "id": "52",
                "name": "Lenovo Support",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "http://support.lenovo.com/"
             }, {
@@ -459,8 +372,6 @@
                "guid": "5f5a3925-7009-4205-be74-45d379e1a873",
                "id": "53",
                "name": "Lenovo",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "http://www.lenovo.com/"
             }, {
@@ -472,8 +383,6 @@
                   "power_bookmark_meta": ""
                },
                "name": "Descripción general – Google Maps Platform – My First Project – Consola de Google Cloud",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://console.cloud.google.com/google/maps-apis/home?project=lateral-origin-405515"
             }, {
@@ -485,8 +394,6 @@
                   "power_bookmark_meta": ""
                },
                "name": "onMyLocationButtonClick",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://developers.google.com/maps/documentation/android-sdk/events?hl=es_419"
             }, {
@@ -498,8 +405,6 @@
                   "power_bookmark_meta": ""
                },
                "name": "Geolocalizar la ubicación de una dirección IP | Geolocalización",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://www.geolocation.com/es"
             }, {
@@ -511,8 +416,6 @@
                   "power_bookmark_meta": ""
                },
                "name": "8448180364.pdf",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://www.mheducation.es/bcv/guide/capitulo/8448180364.pdf"
             }, {
@@ -524,8 +427,6 @@
                   "power_bookmark_meta": ""
                },
                "name": "Category:Hard disk diagrams - Wikimedia Commons",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://commons.wikimedia.org/wiki/Category:Hard_disk_diagrams"
             }, {
@@ -537,8 +438,6 @@
                   "power_bookmark_meta": ""
                },
                "name": "Category:Hard disks by interface - Wikimedia Commons",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "https://commons.wikimedia.org/wiki/Category:Hard_disks_by_interface"
             } ],
@@ -548,7 +447,6 @@
             "guid": "994fd0cb-c197-4a6d-ab71-ada5a873dbc1",
             "id": "51",
             "name": "Lenovo",
-            "source": "unknown",
             "type": "folder"
          } ],
          "date_added": "13359175242523901",
@@ -557,7 +455,6 @@
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Barra de favoritos",
-         "source": "unknown",
          "type": "folder"
       },
       "other": {
@@ -568,7 +465,6 @@
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
          "id": "2",
          "name": "Otros favoritos",
-         "source": "unknown",
          "type": "folder"
       },
       "synced": {
@@ -578,11 +474,9 @@
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
          "id": "3",
-         "name": "Favoritos móviles",
-         "source": "unknown",
+         "name": "Favoritos del celular",
          "type": "folder"
       }
    },
-   "sync_metadata": "CjEKDgiIgQISCJYULzyPAQAAEgAqGDRndlRNUnJHQm1mOXFsY0hUTzBPQ0E9PUgDoAYMEokBCAEShAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJGY1MWExNmJlLWI2YTItNTBjMy05NTIwLWVmZTRlMTkwYTYxZRgAIAAoADDEipeBsTA40taHveovQNLWh73qL0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASiQEIAhKEAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkNWZmZDBmZDMtNGJhZC01MTEyLTllODktYTllYjg5NmQxMzM5GAAgACgAMMSKl4GxMDjy1oe96i9A8taHveovShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKwAQgYEqsBChxra1hTSEFZUjBZZTJvbmliMm5FSWVJT3NGRXc9EiRjOWRmZjEwYy00YWMzLTQ1OWItYjFjNS0yOTA3ZTY1ZmFhNWYYACACKAIwh6m84fMxOLuEib3qL0Cuzbvh8zFKHHRFT2tNazdrN1hucHhaQlFIYSswTGVWTUpBcz1aJyIl/////wAAAAb2S0h4TWk2RWt5QSt6bE1lbEJKRnEvSVB6cDRnPWUlTZXUEqgBCBsSowEKHDdLSVdHNlBxaWxkbStHSmROUU9EdnEvcEZROD0SJDc0ZDYwMTg3LWJiMDItNGE2ZS05NWJjLTY5MDMwZDEyNGMwNBgAIAAoADDkhcnWqS84je2HveovQI3th73qL0ocUjhVWERERDRydDF6UVIrc3lEMnZYUUExNGI4PVofIh22TU02Z2pvb3BsNXo1NG01UjdZdUgyUU0vaTRvPWUgUbY3EqgBCA0SowEKHGxjbXdPeG1nV1BNSTd2QkJ0NVBzV2l4R2FBcz0SJDNmODM4MTgzLTAzNDYtNDFmYi1hNjAxLWI5ZWUyYWE1OTRiYhgAIAAoADDb3rzpkDA48d686ZAwQPHevOmQMEocMVdSL0hzM2N2TDNzeDlrNGlkc280TUNLNlJFPVofIh37RDVhbXpKdGthNTJEVUxKbXBGSE1Hck02NnNNPWVWDUkxEqgBCAkSowEKHG5nNEE2UFRocnVnZ3lRSEUrYVhKczZYZy9Caz0SJGI4MDg4ZjY2LTk3NmYtNGQxMi1hNGY0LTcyNmFhMDM3NTIxNBgAIAAoADCRmL3okDA4lf37wo8wQJX9+8KPMEocWm9uYTI4aTFEVWdwQ3VYSGpZbWx4MmRTeGpFPVofIh2xTmtYM2JJNlM3V0pjT1o2S0ZrN00rckJyYVpjPWU955aDEqgBCAsSowEKHFZaM2N5eTdBTk1XazkxZVZEYklvak5QTzRwTT0SJGQyMGFiZThlLWI2M2QtNDk2ZS05N2IwLTBiYjkwMTk2Y2ZjMhgAIAAoADDepv2WkDA4+6b9lpAwQPum/ZaQMEocZjZVTUpONDF0SmN1cmpwdUZsbFVYYTEwWHJnPVofIh3sRm1mcHU1NS9VSWxTMWVOL0wrS1ZZL1hnT2VVPWXq8IzrEqgBCBISowEKHDJ5VFZnYWFUYXBzV2FDOWxKYnRxajFJZUR5UT0SJDRhZDkzYjg1LWE0ZjYtNGYzOC1iYThkLWZjMmI2NTVlN2U4MRgAIAIoAjCJqbzh8zE4rZiJveovQKzNu+HzMUocbjJJdXo0RVFUUExoNis0QkY1UmtPZ3FHNnFNPVofIh27WFlrNllKVjI4ajV2MStuR1ExV1p5b3Qrci9jPWU0oG+rEq8BCDASqgEKHGN2bHdhRUI0T2RkVmZTVXoyZTFOMGpCSkVRcz0SJDYxYmMwMDgwLTU1NjEtNDcyZi05MzY0LWMzOTUwMGY1NTM5NhgAIAAoADCO4/+UtTA4n+P/lLUwQJ/j/5S1MEocaUlDVkwyMDJ6MFd2dTR4NVI5dm9xd1pVMy9zPVomIiT/////AAAACkltSmlvNzh1WTZiMTY0Y081OXRaSnAwQzFFcz1lymlm1BKoAQgQEqMBChxTRUxRaEYydlIrdzBuVVhPMVUwOTMwWDB6emc9EiQ0NWQ3OGFhZS04MmE1LTQ0ZWUtODNiMy1kMWQwZDFlMTdlYzgYACACKAIwiKm84fMxOKqnkbaIMECrzbvh8zFKHEFDNmxmQWVxbXZ3ZHZBZnZNZTdDYUhiR3Nkaz1aHyIdZzB1Q1JWMVRZWXUrQ1JBeXBlN0tGRE9KWXZVYz1lm6GUphKoAQgOEqMBChw5T0F6KzR0K05ERStxbEJOQVVqYTd0M2hjZVE9EiQwZmViM2M1Yy0yYTg4LTQ3MzQtOTM3NC01ZmJlYzI0YTE3MDIYACAAKAAw1ML17pAwOO3C9e6QMEDtwvXukDBKHFdKYXBjVUR4bHpCdEE5V1dlSFBBbVYwVUVyWT1aHyId/WQra3NTVSt1bWJyUmw3YS9TQXViUFJmVnBVWT1lCAxKLhKpAQgUEqQBChxVRGYwYndidG5GNVhTelZuVGg0NFpwUVk1ck09EiRmZGI1YzdlMS05OTk0LTRjNGQtOTM2Ny1lOTU4ZTVhMTYxZDgYACACKAIwjam84fMxONqEib3qL0Cszbvh8zFKHDJiaHdpUE1LTTN3NEphTzZqMS82V0cycTFiOD1aICIe/+phN1krMVc5S3lBbVQzaWVvTTBpMW5tZWpUek09ZSVNldQSpwEIBxKiAQocY1NUNlJhU0Q4TitqbExKdzlhdHlzWHNka1pVPRIkOWI4ZDllNDMtMDliZS00OGM4LWJjZmItMTA2YWQ5OWIxZTU3GAAgACgAMJLJ/MKPMDid2/vCjzBAndv7wo8wShx0YmJ6TnlIYmVnUFFyaEIrb0VjbCttVk50dzA9Wh4iHFZ1K2dVTG9JWTFqbW5FOTl0Y0pIUVhWUG1jaz1lAAAAABKoAQgoEqMBChxTcGM5QWYwbzlteXpNazQxT2FFRFFPRGFZQzA9EiQ3MDI0MDVmMC0zMzE3LTQ0YmMtODAxZC03Y2E0ZWZiNjlkY2MYACAAKAAw0uLR/YMwOOfi0f2DMEDn4tH9gzBKHEZhVTVHUytBaElDMkxRbU5Jbjd3ZzZ1WGh3Zz1aHyId2kxzZjY5L1dZN3hSYVFkUnFpamtrTEx5cGozVT1lv2tcTBKoAQgREqMBChxwN3laTDdURmtPOHRmdEtrV2N4cTJCdHFyU3M9EiQwOGE2NGI1Zi02ZDRmLTQzZTAtOGYzNy1lNTZmNGQ2YTg1YzUYACACKAIwiqm84fMxONj0+dj+L0Cszbvh8zFKHEV5R29HWlZBVldyQ2FUcXo2d1B0YmFnOFViYz1aHyIdmUFraTVzRmZtVCtFSEVlU0pKNWJxL0xkUTNyaz1l2JFNchKJAQgDEoQBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQyMmZiMWQ1MS1iMTNhLTU1ZGItODg4OC05MjNmNTY0N2Q3ZDUYACAAKAAwxIqXgbEwOMDXh73qL0DA14e96i9KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEqkBCBMSpAEKHG9NVk94ZXJ5N0hsaWcwUGd4dlNiVU9ZUHNlUT0SJDc5YjI4YzI3LTU2MzMtNDFhYi1iOTM4LTc3ZjRiYmE4ZGI3NRgAIAIoAjCMqbzh8zE4ieuIveovQKzNu+HzMUocNkNsVFY2VnVVajQ2TVZadkNpMUltUkJZb3ZVPVogIh7/1UJBVHV3OFZnV1Vjc3RzR0hVUmcrb0NvS0cycz1lJU2V1BKpAQgVEqQBChxRMDZINXgvRm1ZYVV5aitoSFNaRGhIb1pqVE09EiRiMmU5MTExZS04ZTNiLTRjMzAtYmYyOS00NmYwYThkZGE5MDQYACACKAIwi6m84fMxOOvth73qL0Ctzbvh8zFKHCs5dzdiYU8zQjMyc20yOXRCQkZ4WFZ3ZXF0OD1aICIe//81L2FoWlZCL2FadjFHcFpkZDdHY001Rk5VNGM9ZVJ58OYSpwEICBKiAQocNi9FMkFXVW1rUjlnYjh1NDFsaXZySW9SaUJRPRIkNmQxNjJkMzUtYTQzYS00MTNlLTlkNTEtY2IwMzFiNGFhMDczGAAgACgAMITb+8KPMDi7+frCjzBAu/n6wo8wShxBbUtmVFdWQlNUOTdkR0QybE44b0xKcWwyYW89Wh4iHGJCMUpBRE1WL3dzZlZaSVkzTnNZdkFlcmdpYz1l1VLb8RKoAQg7EqMBChxhRlhwMnlxTFpJM1libWg2YktlMGcxWUpHcms9EiQ2ZDNlZGFhMi1iNWEwLTQ1MGMtYTk2YS00MTAwNGIwNGRmMjQYACAAKAAwn9mqp9kxOIzaqqfZMUCM2qqn2TFKHFF0RE9HV1Y2NGE5eWFSSk1BY21MWEFWTWRlST1aHyId/mtJaDlqTVVTY2p4T0RvK0pMVVVBaDI4SHVnWT1lJpmvQRKwAQgXEqsBChxqbFh5a1NaUndRRlprYjl2ZW1sMnpNUVpSYkE9EiQyNmZhYWExMC1hYTBjLTRlODMtODUzYi01MjE1MzNmZjZjYTkYACACKAIwj6m84fMxOPWVib3qL0Ctzbvh8zFKHEJKOTl4Uy9mSEVlT1JPTjRuMVhxK0JLNWo0OD1aJyIl/////wAAAAbva1U5TytrczZITTdUa0NyT2kyQ3VFUncyZFR3PWXLn/UBEqgBCCMSowEKHEd2KzY4bEZ6MFVHOXNGUC9vaDdtWUZoL2kvbz0SJDk0M2M2YTY0LTNjMzMtNDdhMS05Zjc4LTdiZTBmNGMyNjAyMBgAIAAoADC5iuariTA494Dmq4kwQPeA5quJMEocNWhyZTd4bWlhdEd4VHVnZnRlNmpvMWZYUGdzPVofIh3/YUxiZXNyYmFJWTBTdGZKUmtYalBKUWhva2ZRPWUsQpOYEqgBCB0SowEKHFAvWUpOa2RRMU80OFJyd1RvcG4wcGtYOWlvUT0SJGU2OTNkN2E0LWNhYWYtNDQyMy1iNTdjLTE2MmQwOGJjYmY1OBgAIAAoADDYlsrWqS84vO2HveovQLzth73qL0ocS1hyajBjdkhwR3RFWUNxSVMyVHBtU3BxSUt3PVofIh3td01hSlc1QUpHR3VucHE1SkR1b0NwMm45RWZRPWXfsLKXEqgBCAoSowEKHG5JYldGRHpqTklLcDZRK1lITlAxK3N4aUIvMD0SJDRhNDEyYzRhLTk4MTUtNGI2Ni1hNjFmLTRlNWRmMDU1NDQwZhgAIAAoADCA/rGVkDA42vexlZAwQNr3sZWQMEocdXlSVmJ4MGM2akozUlB0dEVDdUhDZzEyUmtzPVofIh3YT094Mm51Qm5yZzMzR1pyTnBqRmdyem1XUUpNPWXlILFeErABCBkSqwEKHDVGcmRucGJWWm9aMmU1ZGFLOTdwSnV4WEN2UT0SJDNlNjgxZDE5LThlMzAtNGQ0Zi05YjQ3LWEyZGRhZDU1NTdiMRgAIAAoADDtnMbA6S84vZiJveovQL2Yib3qL0ocd043aDlSRjVIeUlUS1RLNFdDNkVCSlBEM0Q4PVonIiX/////AAAABv03YkFneHo2UmszR202bzY0dTVVblVzdHRvYWM9ZQAAAAASqAEIDxKjAQocdGlGanRCOXdrZlFPSmt3dTJ2Q3lzOU9zcXJJPRIkNmViM2QzYTktYzBiYy00NTVkLWE3MjctOWU2YmY5ZWQ4NDIyGAAgAigCMJCpvOHzMTiL/fWIiTBAq8274fMxShxENzV5L3MxTDg4d3l1cEZWank1N0JESWFDYlE9Wh8iHWRVTFdrOHlTd0g3RVFIM29BSnNkRDljSkVnWkk9Zacc0hkSqAEIHBKjAQocQlZEZnBBSTZVL3ZHZXRxZEk3b3RMYTNwQllVPRIkNzllZGQzZjktZmRjZi00ZGZmLWE3MGQtMzU5NmNmZjY0NmFjGAAgACgAMPi9ydapLzis7Ye96i9ArO2HveovShxUd1ZHb3Jhb3ZyUTFXeUx1cm1EVjRxdWpSV3c9Wh8iHdtWYXlhYkpZMkZXMXBCSkdNWDVRSFJ6cnpzaWc9ZSBRtjcSqAEIIRKjAQocRWR5bjRJL1d3ZUxmNmwyeXp5YXE3OHFJaU5FPRIkNzRlYzIyYzItNThiNi00MzM3LTg3MzUtODFkYjkxNzFiYzE4GAAgACgAMIT7g4eIMDiS+4OHiDBAkvuDh4gwShwweml6OFI5UkQvWUJGNFRjd0YvYmpxRjY1dGM9Wh8iHf82dXU5YVdlWmZaSGNzUVpMcXVGVFV6c0lVWlk9ZQAAAAASqAEIHxKjAQocOFlVT0Vyb0M4NUd6dHlON2hnQTlabWVINTZZPRIkZDhmM2JiMjMtZTlmNi00NDNjLWE2ZmQtN2YwYWRmYWUzMDc3GAAgACgAMLTw+7qFMDjV1fu6hTBA1dX7uoUwShxiRnhkaVBBeUpLclZXcVRVYnlWTys0TVZqT1k9Wh8iHftjQVZlNTRCR1hnSkZyTlhXL3JmZ1pOQm4xOTQ9ZW2gn/USsAEIJBKrAQocSVhXVWV5MnMzaTdtcTFEblEwZ3NINGZMbS9VPRIkMjU5YjlkMzctMGI3Yy00NDM3LTg0NzMtMGMyZWM1YTI5ZTQxGAAgACgAMIvs6c+BMDid7OnPgTBAnezpz4EwShxhR0hhS0djN1UyeFd5QVlGVE8yUGYvUUdYZUk9WiciJf////8AAAAIulpCcHlCN3pRelNUaDZydHhUb2dldENLd245az1lCKi2MhKoAQg6EqMBChwzQTVqUTROVzlWVzBhYTQwRHlaSmRUTzk1Snc9EiQwNDc0ZmMzYy02ZGVhLTRlZGEtOTljYy03M2NlZTc5NmY1NDIYACAAKAAwtpmqp9kxOKyaqqfZMUCsmqqn2TFKHG50akNqazVHb2RXZWFSUGlzTDk1MkR2QlQ4ST1aHyId/Ux0UWc0Qi9VQ0VBeUZrcGpLSXFEWUNIQTcxOD1lJpmvQRKoAQggEqMBChxqS3J1UElrU3VGZG5DdkkwZGZneVkxbklOMjA9EiRiYzMxYzc3OC0xOGY5LTQwOGYtOTU3MC01NTU3YWNhNjQ1OTkYACAAKAAw5/n7uoUwOPb5+7qFMED2+fu6hTBKHDQwb2JiZzgrT2Jjd25rZTdoYlFGTUpYbGFQST1aHyId/WRBNkJ0WUdydUtORHFPekpjYnUwbUJEbzhvTT1lKuq+tRKoAQgnEqMBChxJOVhNTHFONitucUc5U1JOcTl4cmdwVFFGZ009EiRiODhmMmFkMi1kYzJiLTRkY2UtOTViMi05ZjhlYmQ5MGQzZDMYACAAKAAwv5+R/YMwOKy4j/2DMECsuI/9gzBKHGR5N0xqN0FnVW9nU3BDazE3TTNwVzgvL2tBQT1aHyIdtVh4bDVUZkR5TnlHanE2SVpISkYwcFFYaXkrdz1lmff4xxKwAQglEqsBChx2a0NKSE9SN1RhY2VKemErSnc3R3pIOE1MckU9EiQxNDc0YWRiYS0wN2I5LTQ5MGEtYjJlYy03Y2Y4MzhlYTQ1NjQYACAAKAAw1viQ/YMwOOv4kP2DMEDr+JD9gzBKHFFyc2NYbHdKRC8wU01uZGZKRmxzVmZreE1Ddz1aJyIl/////wAAAAj3NjdKRXJMdC8ycDZaZzdVNmxyeXkycEU0S1pJPWUAAAAAEqgBCCkSowEKHDQ0dm1TcmNvSWI1ZVF4bC96eURpWFRvL2lzVT0SJDg5N2Q1ZTZjLWRiYmItNDVhYS05ZTQzLWFhZGNlNDY3YzUxORgAIAAoADC8wdH+gzA41MHR/oMwQNTB0f6DMEocT1h5NW41T1EvK2xoOHFUNmxGR25vaFVobGgwPVofIh3tSGdORDVUeVV4SzIwNEYza0xhK08rWEVtaEZFPWVQy6jbEqgBCAwSowEKHE80NmcxWmJqdytxUnplUUZtWFdETmh1aUZ0ND0SJGY0YmFiMGEzLTVkMjktNGUxMS1hODI4LWZmZGEwZTIxODY5ORgAIAAoADCWspa+kDA4o7KWvpAwQKOylr6QMEocTWxBYVlxc09Hcno2dUJpbHlpQ2dhdkRvNmVFPVofIh32Q044cmtYK2lMNVNjcThnOU5abGQ1RTRpSldrPWWTqofZEqgBCB4SowEKHC9EZm5iak5UVzNJRkhCTVdHWWdMTU1GY2k1VT0SJGIzYzVkYWU3LTllMTctNDYyYy1iYWE0LTA5YjE1NTM0NzdiMxgAIAAoADCZsMrWqS84zO2HveovQMzth73qL0ocd3EyQUNjMUJGTzIweTF0ZjVYdHhWa3ZqKzBNPVofIh32c2Qyb3lFckxETGlTZ3g2MWhnc3REdmtLM2hjPWXfsLKXErABCCsSqwEKHHhkanN2bHI4YVBPZ3pvZzY0amlNTEpqbG1OST0SJDg5MTJkYThlLTU4ZjctNDU3OS1hZTc3LTU1NGJjZjhiMjkzZhgAIAAoADDm7LuJiTA49Oy7iYkwQPTsu4mJMEocVlA1RUJIRmdDTStGZUFaSjBxZEhubVB5S21JPVonIiX/////AAAACP5Cekcrby9qeFpMK0JnWHd0dVArME9RMXQ2dGs9Zf9C5uESqAEIOBKjAQocdnBNT0xkWkpCU1JkeGtscHZDVzV5Rkt6eVUwPRIkZTUwN2FkYjYtOTYwZC00YmI4LTk1NTQtMTNlMDNmMDI0MjlmGAAgACgAMNKLkMfIMTjxjZDHyDFA8Y2Qx8gxShwwc0hkQ0VNYW1IdXlQd0c5VGhWL2RaeHVkNTg9Wh8iHfVuRm5PRW44RUpFWFgvT1BoSDRaTEcyOVM1QTA9ZUO248cSqgEIFhKlAQocckZGWHVCRGlJelQwbDQxMnduRS9DK3poeFRBPRIkZjI2ZTVmM2MtNjNmMy00MWQzLTgxODEtNzBhNWZhZjU1ZDc5GAAgAigCMI6pvOHzMTip7oe96i9Arc274fMxShw2S0NUR3VxNmcvWDZwYTBybmtqZXVVK1ZCckU9WiEiH///+05vdFM1S05HMkdDS2dYaVdiMDhTWkFiTFRkRT1l3LODPRKoAQgiEqMBChx4WTdsbjhOUS96N2xTVFB0VEN5MzFZaW9ML2c9EiRjZDAwNmQ4Yy01ZDNmLTQ3ZDMtODFkOS03NTAwOWNhOTExMGQYACAAKAAw0tq0h4gwOOfatIeIMEDn2rSHiDBKHEcrWlVnYVhuZUhlMi9nS1VlYkVDNTVCRzdFZz1aHyId/0I5SjN0UmJJbUhmNmE4M2dHWCt4ZU0vdUZCQT1lUxeJVBKnAQgaEqIBChxKeWJnL2tuMStEclhxanpOOU9OWERqWWxiOU09EiQxNDg0YzAyZS00YjA0LTRmMTgtYTE5NC0wMmUyYmIwYTE3MjEYACAAKAAw2PTI1qkvOP3sh73qL0D97Ie96i9KHHRySis4OGFDbk5vbG5GSld1amdHcjdhbnJRRT1aHiIcbGdBM1dHZjJmWHRsS0dYK1J2bUQvRkEvcmxBPWUgUbY3Eq8BCDESqgEKHGtYYzYwTS85ckRnWEpSdHZXYjFtZUhiT0tjUT0SJDI0MDlhMDQyLTZhZjEtNGU0ZS04NWQwLTQxYTlmOGY1NjgxNRgAIAAoADC8n4eVtTA4zZ+HlbUwQM2fh5W1MEocVkJVdzFYQTZHWkF6YVU5bms3QVNyaVBjSlB3PVomIiT/////AAAACksxM0hXejk1L2dLbWZHemNqTTJqVFVKUUlscz1lapTYiRKwAQgtEqsBChxiamF3Kzl0dGhFeUs4SEk1MVplNmtGcENpSUE9EiRkZTNiNDBhNS0xY2Q2LTRhZWMtYjQyZi01ZTU3MDk2ZDA3NDQYACAAKAAwucXuzowwONLF7s6MMEDSxe7OjDBKHDErNmR1VlJVejZhcVpBWk9FdUgyTnB1RVdSUT1aJyIl/////wAAAAn2M2R4YzJLZThLVlpjUWVmdWtRcllxYVF1Y2pnPWXH0pCbEqgBCDcSowEKHGxiVkU5RGFIQ1hnaXRBeHl4a3NTNG9xeXFIMD0SJGMwM2YwZDg2LTFlYzYtNGVlZC1iN2EwLTUxZjg5N2NkZjRhYxgAIAAoADCSye/IvjE4sMrvyL4xQLDK78i+MUoca0NPaDUrdEVhSjBQQzEwVjNHMldiK3BkTlJ3PVofIh3qVVYyYlAyUkdjb2R0Ukdjb25EaFlYK0lLeW9ZPWVhZyE0ErABCC8SqwEKHDZRRjN1SkdtVUU3Q2FIZDUwZEJyc3dkOTVjUT0SJGIyYzE5NjRjLWFlODAtNGQxZi04ZTNmLTJkODk1YjdhMjJiNBgAIAAoADDToaOKxTE4v9Ocm5EwQL/TnJuRMEocWHNPZGRRMDFhNk05eVRJWDVRNGVpdVFUR3pNPVonIiX/////AAAACf5OeE9OSkp3aTE2ci9vTXVtNWk3VThyZ0ovZ1E9ZSVNldQSsAEILBKrAQocRURGbit2VHl4M2F2dzkzM1FCeWFIVTFNOWRJPRIkYzA5ODM2ZjgtOGI4OC00MzlhLTg0YWItYzU0MzhiZDdjOTZhGAAgACgAMJjM1PuJMDjBzNT7iTBAwczU+4kwShxDYkR2bWtsQWE3WlM1K0ljMGZlOVE4eUtqSW89WiciJf////8AAAAJsk5wb2c5clhzVGtDTmxqVVc1RXdjWFVYY2x5bz1l85drqBKnAQgmEqIBChx0cHM0aVdKMDZqc21RYWxsTGJiby8vaG1Kbnc9EiRlZTU5M2ZjYS03Njk0LTRjYWUtYmY2My1hYzIxY2U3YzhkN2MYACAAKAAw1viQ/YMwOLHLjP2DMECxy4z9gzBKHERiWFllMGFWUHN6aklmZ2h0V2puNGV0eWhndz1aHiIca0VnbktxSFVqUlFqVUx0ZDZyaGp6NVpsZXN3PWUQMP/kEq8BCDISqgEKHEU4Tnlub3hwNXJLM1gwWTJueEdMUjM0SldPND0SJGFkYjQyYWI1LWM1ZGMtNGNlNC04NjJmLWFiOTg0MDE3YTFkMxgAIAAoADDEoO635zA4+bDdlbUwQPmw3ZW1MEoccGNibHdQQStLTCt4NDZlbDV2dWRLcVBxODJvPVomIiT/////AAAACk96U25YMWU5Vk1QR2VSODNqVmJ4aFNIYVYwaz1lk/+upRKwAQguEqsBChxmbHBRS3ExeGFWSzBwN3hSVDJBMHhtWnhjRGc9EiRlMDY3ZTUyOS0wMTA2LTQ0NWUtOTFlNy0xNzBlYjMwOTVmMGQYACAAKAAwl/PqjpAwONbX64yQMEDW1+uMkDBKHEgxRldxWS9YQW9Kbnpvc0tDd2NjbklhcjA1TT1aJyIl/////wAAAAn9bExINDlXRG9VVmxldytWb05xTWlmaWFSTVFZPWVgghMLEq8BCDMSqgEKHHViaDdyZFlOdm5xaTFUcy8vNTRQNDROWlhSVT0SJDk5NGZkMGNiLWMxOTctNGE2ZC1hYjcxLWFkYTVhODczZGJjMRgAIAAoADDKoI7RujA466CO0bowQOugjtG6MEocZ3hEWkMxdE5zcVNOVjF3Skd4M1ZzMDBaY0hZPVomIiT/////AAAACmp2a3dHOEhZdTJ1MVJZSzNZVyt3ZCt4Z1o2WT1lAAAAABKoAQgqEqMBChxNWUhabUF3L05hYUcwWGdIbDU3UENnWGRPRFU9EiQ1YWZhNmIxYS1jZjAyLTRkMWMtOGRjZS0yMmRiYzFjNDc0NmUYACAAKAAw8MP9xYQwOPfD/cWEMED3w/3FhDBKHENHbXJ4SkpKUDc3QXVLYml6R2w4WkZEdVdZWT1aHyId9mVYYWdmQlBZTHkyZngyVEV5N0NaMWFuK0JVWT1l0ZNGGhKnAQg0EqIBChw4QXBQOHF1RllFajgwbjlWWWhNUUpoaTQ4ejg9EiQ5ZDY1MWNkMC04Njg2LTRjOTAtYjE1MS1jY2RiNDIwMzUyNDkYACAAKAAwyqCO0bowOPqgjtG6MED6oI7RujBKHHNnSitMaUlzRFFQRjJUb2EvWVFsN3hZRDBxST1aHiIcUUFYY3MzS1RhWVlWeUxuSFBqdVM5akNVZXVVPWUAAAAAEqgBCDUSowEKHFdaSHEza25jQVluNlZwQytKWHN5NkJvcjloVT0SJDVmNWEzOTI1LTcwMDktNDIwNS1iZTc0LTQ1ZDM3OWUxYTg3MxgAIAAoADDKoI7RujA4xqKO0bowQMaijtG6MEoccENJMmhwYUdnbkx0VldqbENzcVJHT2sxVXAwPVofIh2oQm9OTTZaK29YZGxhbW1jaGtCd3hGYnFlWUE0PWUAAAAAEqgBCDYSowEKHGNQMndPNWxZQlFuZWR4dVdiU2F3UzRzZk9VND0SJGI4ZTFkMTE4LTg3YjgtNDg2MS05NGEzLTAzZjVlYmRlZTY1YRgAIAAoADCM2Nf3vjE4/fmunL4xQP35rpy+MUocWHQvMFpGVTZjVTlkV3ErQUV3M1FYcEZtTHFVPVofIh3URks3Y2VPVHFKYTg0VTYyQk1OTm9rMlpYVlRRPWX5uiM4EqgBCDkSowEKHHpvU1NNSEozTWdSQ3UzNVVsLzNrRlFpMEtvcz0SJDE5MTg1YTZlLWE1NzgtNDdhZi05ZjE4LTRmZTAwZDk5OWFhNxgAIAAoADDFxYSm2TE4mceEptkxQJnHhKbZMUocZXZIYjVZcW5IMGlxVUQ4VDVhRVJocFhQYUg0PVofIh36WUJKTnJGanJHMWJBKzZlVzhBRUJ0aExvcE9BPWUAAAAAMAA4AA==",
    "version": 1
 }

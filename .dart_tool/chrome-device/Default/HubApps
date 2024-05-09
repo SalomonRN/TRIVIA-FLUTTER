@@ -2175,15 +2175,17 @@
       }, {
          "approved_channels": [ "canary", "dev", "beta", "stable" ],
          "enabled": false,
-         "enabled|locale:ja|flight:msHubAppMsStartYJTop": true,
+         "enabled|locale:ja:ko:zh_TW|flight:msHubAppMsStartYJTop": true,
          "footer": {
+            "no_button_text": "No, don’t open",
             "open_count": 3,
-            "text": "Continue to explore your feed and related topics as you browse."
+            "text": "Continue to explore your feed and related topics as you browse.",
+            "yes_button_text": "Got it"
          },
          "force_auto_open": false,
          "id": "75a774c2-6075-ae4f-09f9-e5f5d9bef6e1",
          "lifetime": "tab",
-         "non_visible_user_friendly_name": "Yahoo Japan Top Site",
+         "non_visible_user_friendly_name": "Yahoo Naver Top Site",
          "remember_context": {
             "time_to_live_sec": 86400
          },
@@ -2191,10 +2193,29 @@
             "description": "Allow visits to news websites to automatically open Microsoft Start in a sidebar.",
             "title": "Automatically open Microsoft Start in the sidebar (news)"
          },
-         "triggering_config": {
+         "triggering_config|locale:ja": {
             "hubappparams": "ocid=stpromoshoreline",
+            "hubappparams|flight:msHubAppMsStartYJDense": "experiences=ShorelineArticleFeed&ocid=stpromoshoreline",
             "hubappsubpath": "/ja-jp/feed",
+            "hubappsubpath|flight:msHubAppMsStartYJDense": "/widgets/fullpage/sharedWidgets/shorelinearticle",
             "signal_name": "IsYahooJapanTopSites",
+            "signal_name|flight:msHubAppMsStartYJTopNews": "IsYahooJapanNews",
+            "signal_threshold": 0.5
+         },
+         "triggering_config|locale:ko": {
+            "hubappparams": "ocid=stpromoshoreline",
+            "hubappparams|flight:msHubAppMsStartYJDense": "experiences=ShorelineArticleFeed&ocid=stpromoshoreline",
+            "hubappsubpath": "/ko-kr/feed",
+            "hubappsubpath|flight:msHubAppMsStartYJDense": "/widgets/fullpage/sharedWidgets/shorelinearticle",
+            "signal_name": "IsNaverTopSite",
+            "signal_threshold": 0.5
+         },
+         "triggering_config|locale:zh_TW": {
+            "hubappparams": "ocid=stpromoshoreline",
+            "hubappparams|flight:msHubAppMsStartYJDense": "experiences=ShorelineArticleFeed&ocid=stpromoshoreline",
+            "hubappsubpath": "/zh-tw/feed",
+            "hubappsubpath|flight:msHubAppMsStartYJDense": "/widgets/fullpage/sharedWidgets/shorelinearticle",
+            "signal_name": "IsYahooTaiwanTopSite",
             "signal_threshold": 0.5
          }
       }, {
@@ -2202,8 +2223,10 @@
          "enabled": false,
          "enabled|locale:ja|flight:msHubAppMsStartYJWeatherTop": true,
          "footer": {
+            "no_button_text": "No, don’t open",
             "open_count": 3,
-            "text": "Continue to explore your feed and related topics as you browse."
+            "text": "Continue to explore your feed and related topics as you browse.",
+            "yes_button_text": "Got it"
          },
          "force_auto_open": false,
          "id": "a5e9f5e1-fcee-c07b-2c44-b707ded020a3",
@@ -2248,8 +2271,8 @@
       "flights": [ "msEdgeHubAppStart", "msEdgeTransientAppAutoOpen" ],
       "icon": {
          "raster_icon": {
-            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_dark.png/1.2.9/asset",
-            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_light.png/1.2.9/asset"
+            "dark_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_dark.png/1.2.10/asset",
+            "light_mode": "https://edgeassetservice.azureedge.net/assets/edge_hub_apps_msstart_logo_light.png/1.2.10/asset"
          }
       },
       "id": "b7a8e9f2-6b0d-4c5b-ae7d-8a6e1f2c7a6f",
@@ -2265,7 +2288,7 @@
          "url": "https://www.msn.com/widgets/fullpage/winWidgets/sidebar?experiences=WindowsWidgetsHub",
          "url|locale:zh_CN": "https://www.msn.cn/widgets/fullpage/winWidgets/sidebar?experiences=WindowsWidgetsHub"
       },
-      "version": "1.2.9"
+      "version": "1.2.10"
    }, {
       "custom_actions": [ {
          "action": {
